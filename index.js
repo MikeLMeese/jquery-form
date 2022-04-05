@@ -4,7 +4,7 @@ let numberInfo = $("#phone");
 let message = $("#message");
 let required = [nameInfo, emailInfo, numberInfo];
 let warning = $("p");
-// //Adding button functionality
+//Adding button functionality
 $(document).ready(function () {
   $("#submit").on("click", function () {
     for (let i = 0; i < required.length; i++) {
